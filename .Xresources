@@ -1,0 +1,31 @@
+URxvt.title:Terminal
+URxvt.iconFile:/usr/share/icons/consola.svg
+URxvt.scrollBar:false
+URxvt.perl-lib: /home/qorg/.perls/deprecated
+URxvt.depth: 32
+URxvt.background:[80]#000000
+URxvt.foreground:#FFFFFF
+
+URxvt.cursorColor:#ffffff
+
+URxvt.cursorBlink:true
+
+URxvt.font: xft:Hack:pixelsize=16
+
+URxvt.letterSpace:-1
+
+URxvt.perl-ext-commoni:default,tabbed
+
+URxvt.tabbed.tab-bg:#000000
+
+URxvt.tabbed.tab-fg:#699000
+
+URxvt.tabbed.tabbar-bg:#000000
+
+URxvt.tabbed.tabbar-fg:#4E9A06
+
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+ 
+URxvt.iso14755: False
+ 
+URxvt.perl-ext-common: default,clipboard
