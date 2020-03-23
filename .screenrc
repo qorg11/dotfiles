@@ -3,7 +3,6 @@ vbell off
 
 # the following two lines give a two-line status, with the current window highlighted
 hardstatus alwayslastline
-hardstatus string '%{= kG}[%{G}%H%? %1`%?%{g}][%= %{= kw}%-w%{+b yk} %n*%t%?(%u)%? %{-}%+w %=%{g}][%{B}%m/%d %{W}%C%A%{g}]'
 
 # huge scrollback buffer
 defscrollback 5000
@@ -22,6 +21,7 @@ mousetrack on
 screen -t Shell1  1 bash
 screen -t Shell2  2 bash
 select 0
+
 bind c screen 1 # window numbering starts at 1 not 0
 bind 0 select 10
 
@@ -85,4 +85,4 @@ bind -c rsz -k ku eval "focus up"    "command -c rsz" # Up
 bind -c rsz -k kd eval "focus down"  "command -c rsz" # Down
 termcapinfo xterm ti@:te@
 termcapinfo xterm-color ti@:te@
-
+hardstatus string '%{= d} %{= d}%-w%{= r}[%{= W}%n %t%{= r}]%{= d}%+w %-= %{G} %H%{W}|%{Y}%101`%{W}|%D %M %d %Y%{= c} %C%A%{-}'
