@@ -1,0 +1,42 @@
+###############################################################################
+# Dracula Theme for Mutt: https://draculatheme.com/
+#
+# @author Paul Townsend <paul@caprica.org>
+
+# general ------------ foreground ---- background -----------------------------
+color error             color241          default
+color indicator         color241          color0
+color markers           color235         color0
+color message           default         default
+color normal            default         default
+color prompt            default         default
+color search            color23         default
+color status            color248       default
+color tilde             color241        default
+color tree              color241        default
+
+# message index ------ foreground ---- background -----------------------------
+color index             color15         color0          ~D # deleted messages
+color index             color15         color0          ~F # flagged messages
+color index             color15         color0          ~N # new messages
+color index             color15         color0          ~Q # messages which have been replied to
+color index             color15         color0          ~T # tagged messages
+color index             color15         color0          ~v # messages part of a collapsed thread
+
+# message headers ---- foreground ---- background -----------------------------
+color hdrdefault        color117        default
+color header            color231        default         ^Subject:.*
+
+# message body ------- foreground ---- background -----------------------------
+color attachment        color11       default
+color body              color15        default         [\-\.+_a-zA-Z0-9]+@[\-\.a-zA-Z0-9]+               # email addresses
+color body              color15        default         (https?|ftp)://[\-\.,/%~_:?&=\#a-zA-Z0-9]+        # URLs
+color body              color15        default         (^|[[:space:]])\\*[^[:space:]]+\\*([[:space:]]|$) # *bold* text
+color body              color15        default         (^|[[:space:]])_[^[:space:]]+_([[:space:]]|$)     # _underlined_ text
+color body              color15        default         (^|[[:space:]])/[^[:space:]]+/([[:space:]]|$)     # /italic/ text
+color quoted            color34         default
+color quoted1           color34        default
+color quoted2           color34         default
+color quoted3           color34        default
+color quoted4           color34        default
+color signature         cyan        default
