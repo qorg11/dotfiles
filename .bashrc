@@ -35,6 +35,9 @@ alias vim="emacsclient" # lmao, also remember to have emacs as a deamon.
 alias irssi="irssi --config=$XDG_CONFIG_HOME/irssi/config --home=$XDG_CONFIG_HOME/irssi"
 alias r="ranger" # I don't really use it
 
+# Please shut the fuck up
+xset -b
+
 # Use bash-completion, if available
 [[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
     . /usr/share/bash-completion/bash_completion
