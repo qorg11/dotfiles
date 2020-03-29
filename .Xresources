@@ -1,10 +1,11 @@
 URxvt.title:Terminal
 URxvt.iconFile:/usr/share/icons/consola.svg
 URxvt.scrollBar:false
-URxvt.perl-lib: /home/qorg/.perls/deprecated
+URxvt.perl-lib: /home/qorg/.config/.perls/deprecated
 URxvt.depth: 32
-URxvt.background:[80]#000000
-URxvt.foreground:#FFFFFF
+URxvt.background:#080c0d
+
+URxvt.foreground:#cad5d8
 
 URxvt.cursorColor:#ffffff
 
@@ -25,7 +26,46 @@ URxvt.tabbed.tabbar-bg:#000000
 URxvt.tabbed.tabbar-fg:#4E9A06
 
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
- 
+
 URxvt.iso14755: False
- 
+
 URxvt.perl-ext-common: default,clipboard
+
+!! Colorscheme
+
+! special
+*.foreground: #93a1a1
+*.background: #141c21
+*.cursorColor: #afbfbf
+
+! black
+*.color0: #080c0d
+*.color8: #8d9597
+
+! red
+*.color1: #3e5962
+*.color9: #3e5962
+
+! green
+*.color2: #475e66
+*.color10: #475e66
+
+! yellow
+*.color3: #4f6a73
+*.color11: #4f6a73
+
+! blue
+*.color4: #5e7b84
+*.color12: #5e7b84
+
+! magenta
+*.color5: #708b94
+*.color13: #708b94
+
+! cyan
+*.color6: #9bacb0
+*.color14: #9bacb0
+
+! white
+*.color7: #cad5d8
+*.color15: #cad5d8
