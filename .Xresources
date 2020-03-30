@@ -3,11 +3,8 @@ URxvt.iconFile:/usr/share/icons/consola.svg
 URxvt.scrollBar:false
 URxvt.perl-lib: /home/qorg/.config/.perls/deprecated
 URxvt.depth: 32
-URxvt.background:#080c0d
 
-URxvt.foreground:#cad5d8
-
-URxvt.cursorColor:#ffffff
+URxvt.cursorColor:#00cc00
 
 URxvt.cursorBlink:true
 
@@ -16,14 +13,6 @@ URxvt.font: xft:Hack:pixelsize=16
 URxvt.letterSpace:-1
 
 URxvt.perl-ext-commoni:default,tabbed
-
-URxvt.tabbed.tab-bg:#000000
-
-URxvt.tabbed.tab-fg:#699000
-
-URxvt.tabbed.tabbar-bg:#000000
-
-URxvt.tabbed.tabbar-fg:#4E9A06
 
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
 
