@@ -34,6 +34,7 @@ alias grep="grep --color"
 alias vim="emacsclient" # lmao, also remember to have emacs as a deamon.
 alias irssi="irssi --config=$XDG_CONFIG_HOME/irssi/config --home=$XDG_CONFIG_HOME/irssi"
 alias r="ranger" # I don't really use it
+alias gcc="gcc-10"
 
 # Please shut the fuck up
 xset -b
