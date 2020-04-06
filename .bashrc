@@ -8,7 +8,6 @@ export WGETRC="$XDG_CONFIG_HOME/wgetrc"
 export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
 export TERM=screen-256color
 export INPUTRC="$XDG_CONFIG_HOME"/inputrc
-export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 
 # Prompt
 
