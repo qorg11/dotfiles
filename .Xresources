@@ -1,10 +1,10 @@
 
 URxvt.title:Terminal
-URxvt.iconFile:/usr/share/icons/consola.svg
+URxvt.iconFile:/usr/share/icons/terminal.png
 URxvt.scrollBar:false
 URxvt.perl-lib: /home/qorg/.config/.perls/deprecated
 URxvt.depth: 32
-URxvt.background:#080c0d
+URxvt.background:[80]#080c0d
 
 URxvt.foreground:#cad5d8
 
@@ -35,7 +35,8 @@ URxvt.perl-ext-common: default,clipboard
 
 ! special
 *.foreground: #93a1a1
-*.background: #141c21
+!*.background: #141c21
+*.background: #080c0d
 *.cursorColor: #afbfbf
 
 ! black
