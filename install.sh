@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# I use debian, mostly!
+# I use void
 
-sudo apt install emacs git vim rxvt-unicode telegram-desktop irssi profanity rsync compiz emerald urlscan w3m
+sudo xbps-install install emacs git vim rxvt-unicode telegram-desktop irssi profanity rsync urlscan w3m
 
 
 # Actually install dotfiles
