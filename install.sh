@@ -9,6 +9,7 @@ sudo xbps-install install emacs git vim rxvt-unicode telegram-desktop irssi prof
 
 mv .git git
 cp -r .* ~/
-cp -vr .compiz .emerald ~/
+cp .wall.png ~
+
 mv git .git
 auto_view text/html
