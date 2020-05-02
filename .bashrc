@@ -9,6 +9,10 @@ export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
 export TERM=screen-256color
 export INPUTRC="$XDG_CONFIG_HOME"/inputrc
 
+# Uncomment if you get errors at gpg singing or decrypting. You can also try installing pinentry-dmenu for example.
+
+# export GPG_TTY=$(tty)
+
 # Prompt
 
 PS1="\[\033[38;5;10m\]\u@\h\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;12m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]\n\[$(tput sgr0)\]\[\033[38;5;1m\]λ\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
