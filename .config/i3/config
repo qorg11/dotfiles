@@ -159,13 +159,6 @@ bindsym $mod+r mode "default"
 }
 
 bindsym $mod+r mode "resize"
-
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-bar {
-status_command i3status
-position top
-}
 exec compton
 exec setxkbmap es -option ctrl:swapcaps
 
@@ -176,8 +169,10 @@ for_window [class=".*"] split toggle
 for_window [class=".*"] border pixel 1
 
 gaps inner 10
-gaps outer 1
+gaps outer 5
 exec feh --bg-center ~/.wall.png
-exec xrandr --output LVDS1 --off
-
+#exec xrandr --output LVDS1 --off
 exec xrdb ~/.Xresources
+exec polybar example # a better way
+exec killall i3bar
+exec xset r rate 300 50
