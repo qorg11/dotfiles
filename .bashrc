@@ -31,17 +31,21 @@ alias mv="mv -v"
 alias mkdir="mkdir -v"
 alias rm="rm -v"
 alias grep="grep --color"
+alias xi="sudo xbps-install"
+alias up="sudo xbps-install -Syu"
+alias xr="sudo xbps-remove"
+alias xrf="sudo xbps-remove -F"
+alias xq="xbps-query"
 
 # alias head="sed 11q"
 
 alias vim="emacsclient" # lmao, also remember to have emacs as a deamon.
 alias irssi="irssi --config=$XDG_CONFIG_HOME/irssi/config --home=$XDG_CONFIG_HOME/irssi"
 alias r="ranger" # I don't really use it
-alias gcc="gcc-10"
+alias revision="taskset -c 1 wine \"/home/qorg/.wine/drive_c/GOG Games/Deus Ex GOTY/Revision/System\"/Revision.exe" # Deus Ex. lol
 
 # Please shut the fuck up
 xset -b
-
 # Use bash-completion, if available
 [[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
     . /usr/share/bash-completion/bash_completion
