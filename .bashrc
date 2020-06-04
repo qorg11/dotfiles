@@ -31,11 +31,19 @@ alias mv="mv -v"
 alias mkdir="mkdir -v"
 alias rm="rm -v"
 alias grep="grep --color"
+
+# Void alias
 alias xi="sudo xbps-install"
 alias up="sudo xbps-install -Syu"
 alias xr="sudo xbps-remove"
 alias xrf="sudo xbps-remove -F"
 alias xq="xbps-query"
+
+# debian alias
+
+alias ai="sudo apt install"
+alias ar="sudo apt remove"
+alias afr="sudo apt --purge remove"
 
 # alias head="sed 11q"
 
