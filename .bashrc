@@ -9,6 +9,9 @@ export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
 export TERM=screen-256color
 export INPUTRC="$XDG_CONFIG_HOME"/inputrc
 
+export MPD_HOST="localhost"
+export MPD_PORT="6601"
+
 # Uncomment if you get errors at gpg singing or decrypting. You can also try installing pinentry-dmenu for example.
 
 # export GPG_TTY=$(tty)
@@ -31,6 +34,7 @@ alias mv="mv -v"
 alias mkdir="mkdir -v"
 alias rm="rm -v"
 alias grep="grep --color"
+alias sxiv="sxiv -a"
 
 # Void alias
 alias xi="sudo xbps-install"
@@ -50,8 +54,7 @@ alias afr="sudo apt --purge remove"
 alias vim="emacsclient" # lmao, also remember to have emacs as a deamon.
 alias irssi="irssi --config=$XDG_CONFIG_HOME/irssi/config --home=$XDG_CONFIG_HOME/irssi"
 alias r="ranger" # I don't really use it
-alias revision="taskset -c 1 wine \"/home/qorg/.wine/drive_c/GOG Games/Deus Ex GOTY/Revision/System\"/Revision.exe" # Deus Ex. lol
-
+alias dx="wine .wine/drive_c/GOG\ Games/Deus\ Ex\ GOTY/System/DeusEx.exe INI=\"..\GMDXv9\System\gmdx.ini\" USERINI=\"..\GMDXv9\System\GMDXUser.ini\""
 # Please shut the fuck up
 xset -b
 # Use bash-completion, if available
