@@ -48,6 +48,15 @@ alias xq="xbps-query"
 alias ai="sudo apt install"
 alias ar="sudo apt remove"
 alias afr="sudo apt --purge remove"
+alias au="sudo apt update"
+
+# I don't use Arch (god save me) but if someone does. Heres your poison:
+
+alias pi="sudo pacman -S"
+alias pr="sudo pacman -R"
+alias prf="sudo pacman -Rc"
+alias pu="sudo pacman -Syu"
+
 
 # alias head="sed 11q"
 
