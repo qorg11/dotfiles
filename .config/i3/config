@@ -166,12 +166,11 @@ exec emacs --daemon
 
 for_window [class=".*"] split toggle
 
-for_window [class=".*"] border pixel 1
+for_window [class=".*"] border pixel 0
 
-gaps inner 5
-gaps outer 5
+gaps inner 3
 exec feh --bg-scale ~/.wall.png
-#exec xrandr --output LVDS1 --off
+exec xrandr --output LVDS-1 --off
 exec xrdb ~/.Xresources
 exec polybar example # a better way
 exec killall i3bar

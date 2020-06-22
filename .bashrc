@@ -12,7 +12,8 @@ export INPUTRC="$XDG_CONFIG_HOME"/inputrc
 export MPD_HOST="localhost"
 export MPD_PORT="6601"
 
-# Uncomment if you get errors at gpg singing or decrypting. You can also try installing pinentry-dmenu for example.
+# Uncomment if you get errors at gpg singing or decrypting. You can
+# also try installing pinentry-dmenu for example.
 
 # export GPG_TTY=$(tty)
 
@@ -21,6 +22,8 @@ export MPD_PORT="6601"
 PS1="\[\033[38;5;10m\]\u@\h\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;12m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]\n\[$(tput sgr0)\]\[\033[38;5;1m\]λ\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
 
 # End prompt
+
+# so bash don't care about cases
 
 bind 'set completion-ignore-case on'
 
@@ -43,7 +46,7 @@ alias xr="sudo xbps-remove"
 alias xrf="sudo xbps-remove -F"
 alias xq="xbps-query"
 
-# debian alias
+# Debian alias
 
 alias ai="sudo apt install"
 alias ar="sudo apt remove"
@@ -60,7 +63,7 @@ alias pu="sudo pacman -Syu"
 
 # alias head="sed 11q"
 
-alias vim="emacsclient" # lmao, also remember to have emacs as a deamon.
+
 alias irssi="irssi --config=$XDG_CONFIG_HOME/irssi/config --home=$XDG_CONFIG_HOME/irssi"
 alias r="ranger" # I don't really use it
 alias dx="wine .wine/drive_c/GOG\ Games/Deus\ Ex\ GOTY/System/DeusEx.exe INI=\"..\GMDXv9\System\gmdx.ini\" USERINI=\"..\GMDXv9\System\GMDXUser.ini\""
