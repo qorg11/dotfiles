@@ -9,18 +9,17 @@ URxvt.foreground:#cad5d8
 
 URxvt.cursorColor:#ffffff
 
-URxvt.cursorBlink:true
-
-URxvt.font: xft:IBM Plex Mono:pixelsize=18, xft:Hack:pixelsize=16
-
+URxvt.cursorBlink:false
+URxvt.font: xft:IBM Plex Mono:pixelsize=18:antialias=true, xft:Hack:pixelsize=18:antialias=true, xft:Sawarabi Gothic:antialias=true:pixelsize=16
 URxvt.letterSpace:-1
-
+XTerm*faceName: IBM Plex Mono:size=10
 URxvt.perl-ext-commoni:default,tabbed
 URxvt.tabbed.tab-bg:#000000
 URxvt.tabbed.tab-fg:#699000
 URxvt.tabbed.tabbar-bg:#000000
 URxvt.tabbed.tabbar-fg:#4E9A06
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.keysym.M-x: perl:clipboard:paste_xsel
 URxvt.iso14755: False
 URxvt.perl-ext-common: default,clipboard
 
@@ -79,7 +78,6 @@ UXTerm*cursorColor: #c5e7f0
 ! Black color that will not be affected by bold highlighting.
 *.color66: #010101
 *color66:  #010101
-
 ! Xclock colors.
 XClock*foreground: #c5e7f0
 XClock*background: #010101
