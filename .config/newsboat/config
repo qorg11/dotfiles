@@ -1,0 +1,6 @@
+bind-key n down
+bind-key p up
+bind-key f next articlelist
+bind-key b prev articlelist
+bind-key > end
+bind-key < home
