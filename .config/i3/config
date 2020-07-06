@@ -42,7 +42,7 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec urxvt
-
+bindsym $mod+p exec emacs
 # kill focused window
 bindsym $mod+Shift+q kill
 
@@ -162,16 +162,17 @@ bindsym $mod+r mode "resize"
 exec compton
 exec setxkbmap es -option ctrl:swapcaps
 
-exec emacs --daemon
+# exec emacs --daemon # don't use this
 
 for_window [class=".*"] split toggle
 
 for_window [class=".*"] border pixel 0
 
 gaps inner 3
-exec feh --bg-scale ~/.wall.png
+gaps outer 0
 exec xrandr --output LVDS-1 --off
 exec xrdb ~/.Xresources
 exec polybar example # a better way
 exec killall i3bar
 exec xset r rate 300 50
+exec feh --bg-center ~/.wall.png
