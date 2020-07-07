@@ -1,4 +1,4 @@
-# .bashrc
+#  qorg'1 config for the Boomer approved Shell .bashrc
 
 # ENVS
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -40,25 +40,24 @@ alias grep="grep --color"
 alias sxiv="sxiv -a"
 
 # Void alias
-alias xi="sudo xbps-install"
-alias up="sudo xbps-install -Syu"
-alias xr="sudo xbps-remove"
-alias xrf="sudo xbps-remove -F"
+alias xi="doas xbps-install"
+alias up="doas xbps-install -Syu"
+alias xr="doas xbps-remove"
+alias xrf="doas xbps-remove -F"
 alias xq="xbps-query"
 
 # Debian alias
 
-alias ai="sudo apt install"
-alias ar="sudo apt remove"
-alias afr="sudo apt --purge remove"
-alias au="sudo apt update"
+alias ai="doas apt install"
+alias arr="doas apt --purge remove" # arr instead of ar because there's ar(1)
+alias au="doas apt update && doas apt upgrade"
 
 # I don't use Arch (god save me) but if someone does. Heres your poison:
 
-alias pi="sudo pacman -S"
-alias pr="sudo pacman -R"
-alias prf="sudo pacman -Rc"
-alias pu="sudo pacman -Syu"
+alias pi="doas pacman -S"
+alias pr="doas pacman -R"
+alias prf="doas pacman -Rc"
+alias pu="doas pacman -Syu"
 
 
 # alias head="sed 11q"
