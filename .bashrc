@@ -8,9 +8,7 @@ export WGETRC="$XDG_CONFIG_HOME/wgetrc"
 export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
 export TERM=screen-256color
 export INPUTRC="$XDG_CONFIG_HOME"/inputrc
-
-export MPD_HOST="localhost"
-export MPD_PORT="6601"
+export BROWSER="firefox"
 
 # Uncomment if you get errors at gpg singing or decrypting. You can
 # also try installing pinentry-dmenu for example.
@@ -58,7 +56,6 @@ alias pi="doas pacman -S"
 alias pr="doas pacman -R"
 alias prf="doas pacman -Rc"
 alias pu="doas pacman -Syu"
-
 
 # alias head="sed 11q"
 
