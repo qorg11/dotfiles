@@ -2,7 +2,7 @@
 
 # I use void
 
-sudo xbps-install install emacs git vim rxvt-unicode telegram-desktop irssi profanity rsync urlscan w3m
+sudo xbps-install opendoas install emacs git vim rxvt-unicode telegram-desktop irssi profanity rsync urlscan w3m
 
 
 # Actually install dotfiles
