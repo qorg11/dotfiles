@@ -9,6 +9,7 @@ export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
 export TERM=screen-256color
 export INPUTRC="$XDG_CONFIG_HOME"/inputrc
 export BROWSER="firefox"
+export EDITOR="emacs -nw -q"
 
 # Uncomment if you get errors at gpg singing or decrypting. You can
 # also try installing pinentry-dmenu for example.
