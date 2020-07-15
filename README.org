@@ -5,3 +5,8 @@ configuration for other software. Such as mutt, i3 and that kind of crap.
 
 
 [[./screenshot.png]]
+* Installation
+I guess just clone the repo and copy the files you want to $HOME. And that should be it 
+** Supported distros
+   Uh, any? I mean, in the bashrc there are alias for void (xbps) arch
+   (pacman) and debian (apt) 
