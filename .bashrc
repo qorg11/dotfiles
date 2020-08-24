@@ -37,6 +37,7 @@ alias mkdir="mkdir -v"
 alias rm="rm -v"
 alias grep="grep --color"
 alias sxiv="sxiv -a"
+alias ls="ls --color=auto -p"
 
 # Void alias
 alias xi="doas xbps-install"
