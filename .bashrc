@@ -54,12 +54,21 @@ alias ai="doas apt install"
 alias arr="doas apt --purge remove" # arr instead of ar because there's ar(1)
 alias au="doas apt update && doas apt upgrade"
 
+# I don't use Arch (god save me) but if someone does. Heres your poison:
+
+alias pi="doas pacman -S"
+alias pr="doas pacman -R"
+alias prf="doas pacman -Rc"
+alias pu="doas pacman -Syu"
+
 # alias head="sed 11q"
 alias audiobg="ffmpeg -i $1c -i $2 -filter_complex \"[0:a][1:a]amerge,pan=stereo|c0<c0+c2|c1<c1+c3[out]\" -map 1:v -map \"[out]\" -c:v copy -shortest output.mp4"
 alias 4chanm="ffmpeg -i $1 -vcodec libvpx -acodec libvorbis $2"
 alias irssi="irssi --config=$XDG_CONFIG_HOME/irssi/config --home=$XDG_CONFIG_HOME/irssi"
 alias r="ranger" # I don't really use it
-alias dx="wine .wine/drive_c/GOG\ Games/Deus\ Ex\ GOTY/System/DeusEx.exe INI=\"..\GMDXv9\System\gmdx.ini\" USERINI=\"..\GMDXv9\System\GMDXUser.ini\""
+alias dx="wine .wine/drive_c/GOG\ Games/Deus\ Ex\ GOTY/System/DeusEx.exe INI=\"..\GMDXv9\System\gmdx.ini\" USERINI=\"..\GMDXv9
+\System\GMDXUser.ini\""
+alias curl="torsocks -q wget -qO-"
 # Please shut the fuck up
 xset -b
 # Use bash-completion, if available
