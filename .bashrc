@@ -28,6 +28,7 @@ bind 'set completion-ignore-case on'
 
 # Aliases
 alias ..="cd .."
+alias epoch="date +%s"
 alias l="ls -lah"
 alias ls='ls --color=auto'
 alias wget="wget --hsts-file=$XDG_CACHE_HOME/wget-hsts"
